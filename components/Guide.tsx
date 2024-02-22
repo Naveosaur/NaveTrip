@@ -4,8 +4,8 @@ import React from "react";
 const Guide = () => {
   return (
     <section className="flexCenter flex-col">
-      <div className="border-2 border-red-500 padding-container max-container w-full pb-24">
-        <p className="uppercase regular-18 -mt-1 mb-3 text-green-50">We are here for you</p>
+      <div className="padding-container max-container w-full pb-24">
+        <p className="uppercase regular-18 -mt-1 mb-3 text-green-50">Lorem ipsum dolor sit amet.</p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">Lorem ipsum dolor sit amet.</h2>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aspernatur distinctio facilis earum quidem alias voluptate dolorum provident qui sed.</p>
@@ -20,14 +20,14 @@ const Guide = () => {
             <div className="flex w-full flex-col">
               <div className="flexBetween w-full">
                 <p className="regular-16 text-gray-20">Destination</p>
-                <p className="bold-16 text-green-50">D48 Min</p>
+                <p className="bold-16 text-green-50">6 Hour</p>
               </div>
-              <p className="bold-20 mt-2">Merbabu</p>
+              <p className="bold-20 mt-2">Sabana 2, Merbabu</p>
             </div>
             <div className="flex w-full flex-col">
               <p className="regular-16 text-gray-20">Start</p>
 
-              <h4 className="bold-20 mt-2">Semeru</h4>
+              <h4 className="bold-20 mt-2">Selo, Jawa Tengah</h4>
             </div>
           </div>
         </div>

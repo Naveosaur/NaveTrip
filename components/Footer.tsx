@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="padding-container max-container flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-10%] flex-row">
           <Link href="/" className="mb-10">
-            <h4>Navetrip</h4>
+            <h4 className="text-xl font-semibold">Navetrip</h4>
           </Link>
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
             {FOOTER_LINKS.map((col) => (
@@ -17,7 +17,6 @@ const Footer = () => {
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">
                   {col.links.map((link) => (
                     <Link href="/" key={link}>
-                      {" "}
                       {link}
                     </Link>
                   ))}
@@ -64,6 +63,7 @@ const FooterColumn = ({ title, children }: FooterColumnProps) => {
   return (
     <div className="flex flex-col gap-5">
       <h4 className="bold-18 whitespace-nowrap">{title}</h4>
+      {children}
     </div>
   );
 };
